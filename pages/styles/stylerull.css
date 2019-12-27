@@ -1,0 +1,52 @@
+body{
+	background: LightSlateGray;
+
+}
+
+*{
+	text-decoration: none;
+}
+
+#neet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	color: white;
+	background-color: DarkGrey;
+  padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
+}
+p{
+	padding:30px;
+	font-size: 20px;
+	background-color:SlateGray;
+   border:2px solid black;
+
+}
+
+h1{
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+.center{
+	margin-left: 300px;
+	width: 60%;
+	background: SkyBlue;
+}
+
+
+#backtmp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: white;
+	background-color: DarkGrey;
+   padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
+}

@@ -1,0 +1,119 @@
+body{
+	background: LightSlateGray;
+
+}
+*{
+	text-decoration: none;
+}
+
+
+
+
+#neet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	color: white;
+   padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
+}
+
+#backtmp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: white;
+  padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
+}
+html{
+  box-sizing: border-box;
+}
+*{
+  box-sizing: inherit;
+}
+.wrapper{
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  background-color:SlateGray;
+   border:2px solid black;
+   padding: 10px;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border: 2px solid black;
+  padding: 10px 30px;
+  color: black;
+  text-transform: uppercase;
+  font-family: arial;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.btn:hover{
+  background-color: SlateGray;
+  color: white;
+}
+
+.popup{
+  display: block;
+  width: 300px;
+  background-color: SlateGray;
+  padding: 30px;
+  text-transform: uppercase;
+  font-family: arial;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -999px;
+  transition: .5s all linear;
+  border:3px solid DarkGray;
+}
+
+.popup input{
+  width: 100%;
+  border: 0;
+  margin: 10px 0;
+  height: 35px;
+  padding: 5px;
+  outline: none;
+}
+
+#neetimg{
+  margin: 5px;
+   border:2px solid black;
+}
+
+.submit{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#callback{
+  display: none;
+}
+
+#callback:checked ~ .popup{
+  top: 200px;
+}
+
+.close{
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  font-size: 24px;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}

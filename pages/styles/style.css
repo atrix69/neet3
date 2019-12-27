@@ -1,0 +1,126 @@
+body{
+	background: LightSlateGray;
+}
+
+*{
+	text-decoration: none;
+}
+
+#neet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	color: white;
+}
+
+#blocks{
+	
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	background-image:url("style-imgs/neet.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border:6px;
+	
+	border-style: solid;
+}
+
+.fone-op{
+	background: black;
+	width: 100%;
+	z-index: 2;
+}
+
+
+
+li{	
+	opacity: 1;
+	font-size: 23px;
+	background: #FFE4B5;
+	border:2px;
+	border-style: solid;
+	padding: 130px;
+	color: black;
+}
+
+#a1{
+	color: white;
+}
+#a2{
+	color: white;
+}
+#a3{
+	color: white;
+}
+#a4{
+	color: white;
+}
+
+
+#a1:hover{
+	opacity:0.3;
+}
+#a2:hover{
+	opacity:0.3;
+}
+#a3:hover{
+	opacity:0.3;
+}
+#a4:hover{
+	opacity:0.3;
+
+}
+
+
+
+#l1{
+	background-image:  url("style-imgs/neet2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+#l2{
+	background-image:  url("style-imgs/neet3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#l3{
+	background-image:  url("style-imgs/neet4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#l4{
+	background-image:  url("style-imgs/neet5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#l1:hover{
+	transform: scale(1.1);
+	color: black;
+	border-color: black;
+	border-radius: 20px;
+
+
+}
+#l2:hover{
+	transform: scale(1.1);
+	color: white;
+	border-color: black;
+	border-radius: 20px;
+}
+#l3:hover{
+	
+	transform: scale(1.1);
+	color: white;
+	border-color: black;
+	border-radius: 20px;
+}
+#l4:hover{
+	transform: scale(1.1);
+	color: white;
+	border-color: black;
+	border-radius: 20px;
+}
